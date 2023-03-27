@@ -1,0 +1,66 @@
+h1{
+  color: aqua;
+  font-size: x-large;
+}
+
+h2{
+  color: aqua;
+}
+
+h3{
+  color: aqua;
+}
+body {
+  font-size: larger;
+  color: bisque;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  animation-name:slider;
+  animation-direction: alternate-reverse;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+
+background-size: cover;
+background-position:center ;
+background-repeat:no-repeat;
+transition: 4s;
+height: 100%;
+width: 100%;
+background-image: url(CODESPACE-PROJECT-IMAGES/second-backimage.avif);
+}
+
+
+@keyframes animate{
+ 0% {
+  background-image: url(../CODESPACE-PROJECT-IMAGES/back\ image.avif);
+ }20%{
+  background-image: url(../CODESPACE-PROJECT-IMAGES/third\ image.avif);
+  
+ }40%{
+  background-image: url(../CODESPACE-PROJECT-IMAGES/fourth\ image.avif);
+
+  }100%{
+    background-image: url(../CODESPACE-PROJECT-IMAGES/BACKROUND.jpeg);
+
+}
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
